@@ -1,0 +1,108 @@
+body {
+  background: rgb(245, 226, 226);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.container {
+  background: linear-gradient(180deg, #430f5859 11.2%, rgb(245, 226, 226) 50%);
+  border-radius: 3px;
+  line-height: 1.25;
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 10px 20px 20px 20px;
+  text-align: center;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: #430f58;
+}
+h1 {
+  color: rgb(245, 226, 226);
+  font-size: 40px;
+  line-height: 60px;
+  margin: 0px auto;
+}
+h2 {
+  color: #430f5859;
+  margin: 0px auto 10px;
+  text-decoration: overline;
+}
+h3 {
+  text-decoration: underline;
+}
+.headline-box {
+  margin: 50px auto 0px;
+  background: linear-gradient(180deg, #b799b2 11.2%, rgb(245, 226, 226) 91%);
+  border-radius: 4px;
+}
+
+.key-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+}
+hr {
+  background: rgb(177, 173, 219);
+  border: none;
+  height: 0.5px;
+  width: 35px;
+}
+.hook {
+  color: #430f58;
+  text-align: center;
+  font-size: 16px;
+}
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0px auto;
+  max-width: 550px;
+  text-align: left;
+}
+
+.product-images {
+  border: 1px solid #430f5859;
+  border-radius: 50%;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+  width: 190px;
+
+  transition: all 200ms ease-in-out;
+}
+.product-images:hover {
+  transform: scale(2.3);
+}
+button {
+  border-radius: 30px;
+  margin: 0 auto;
+  display: block;
+  background-color: #430f5859;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  color: #430f5859;
+  background: #fff;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+.confirmation {
+  display: block;
+  margin: 0 auto;
+  max-width: 550px;
+}
+footer {
+  text-align: center;
+  margin: 20px auto 40px;
+}
+.author {
+  font-size: smaller;
+  font-weight: 1000;
+}
